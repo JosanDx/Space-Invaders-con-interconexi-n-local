@@ -1,0 +1,7 @@
+D:\Documents\Visual Studio 2019\proyectos\LabSpaceInvaders\LabSpaceInvaders\bin\Debug\LabSpaceInvaders.exe.config
+D:\Documents\Visual Studio 2019\proyectos\LabSpaceInvaders\LabSpaceInvaders\bin\Debug\LabSpaceInvaders.exe
+D:\Documents\Visual Studio 2019\proyectos\LabSpaceInvaders\LabSpaceInvaders\bin\Debug\LabSpaceInvaders.pdb
+D:\Documents\Visual Studio 2019\proyectos\LabSpaceInvaders\LabSpaceInvaders\obj\Debug\LabSpaceInvaders.csprojAssemblyReference.cache
+D:\Documents\Visual Studio 2019\proyectos\LabSpaceInvaders\LabSpaceInvaders\obj\Debug\LabSpaceInvaders.csproj.CoreCompileInputs.cache
+D:\Documents\Visual Studio 2019\proyectos\LabSpaceInvaders\LabSpaceInvaders\obj\Debug\LabSpaceInvaders.exe
+D:\Documents\Visual Studio 2019\proyectos\LabSpaceInvaders\LabSpaceInvaders\obj\Debug\LabSpaceInvaders.pdb
