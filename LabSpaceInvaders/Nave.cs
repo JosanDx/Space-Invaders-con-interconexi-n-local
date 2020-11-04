@@ -70,8 +70,13 @@ namespace LabSpaceInvaders
                 case Direccion.Arriba:
                     break;
                 case Direccion.Abajo:
-                    Console.SetCursorPosition(posicion.x, posicion.y-1);
-                    Console.Write("                        ");
+                    for (int i = 0; i < 8; i++)
+                    {
+                        Console.SetCursorPosition(posicion.x, posicion.y - 1);
+                        Console.Write("                        ");
+                        posicion.y++;
+                    }
+                    
                     
                     
                     break;
@@ -79,9 +84,13 @@ namespace LabSpaceInvaders
             pintar();
         }
 
-        public void disparar(List<Nave> Objetivo,Direccion dirDisparo)
+        public void disparar(List<List<Nave>> Objetivo,Direccion dirDisparo)
         {
             bala = new bala(new Posicion(posicion.x + 10, posicion.y - 1), Objetivo, dirDisparo);
+        }
+        public void disparar(List<Nave> Objetivo, Direccion dirDisparo)
+        {
+            bala = new bala(new Posicion(posicion.x + 10, posicion.y + 7), Objetivo, dirDisparo);
         }
 
         public abstract void destruir();
